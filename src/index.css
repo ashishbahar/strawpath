@@ -133,6 +133,8 @@
 
 .header_button {
   border-radius: 9px;
+  padding: 18px 62.3px;
+  letter-spacing: 3.125px;
   border: 3px solid var(--clr-cream);
   background: rgba(255, 249, 240, 0.25);
 }

@@ -40,9 +40,12 @@ const Header = () => {
             Strawpath is an innovation, solution design and product development
             lab and consultancy
           </p>
-          <button className=" text-center header_button ff_mont fs_xl clr_cream line_height_93 text-uppercase">
-            let’s talk
-          </button>
+          <div className=" text-center mt-5 pt-4">
+            
+            <button className=" mb-3 text-center header_button ff_mont  fw-semibold fs_xl clr_cream line_height_93 text-uppercase">
+              let’s talk
+            </button>
+          </div>
         </div>
       </div>
     </div>
