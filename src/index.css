@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&family=Tenor+Sans&display=swap");
 
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+}
+
+
+
 :root {
 
   --ff-xsm: 14px;
@@ -85,4 +96,43 @@
 
 .clr_lightbrown {
   color: var(--clr-lightbrown);
+}
+
+.line_height_93 {
+  line-height: 93%;
+}
+
+.line_height_116 {
+  line-height: 116%;
+}
+
+.line_height_108 {
+  line-height: 109%;
+}
+
+.header_bg {
+  background-image: url(./assets/images/png/headerbg.png);
+  background-size: cover;
+}
+
+.stroke_width_hover:hover {
+  -webkit-text-stroke-width: .2px;
+}
+
+.trans_03 {
+  transition: all .3s linear;
+}
+
+.max_width_1433 {
+  max-width: 1433px;
+}
+
+.max_width_1009 {
+  max-width: 1009px;
+}
+
+.header_button {
+  border-radius: 9px;
+  border: 3px solid var(--clr-cream);
+  background: rgba(255, 249, 240, 0.25);
 }
