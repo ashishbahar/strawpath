@@ -111,6 +111,7 @@
 }
 
 .header_bg {
+  background-position: 50%;
   background-image: url(./assets/images/png/headerbg.png);
   background-size: cover;
 }
@@ -137,4 +138,86 @@
   letter-spacing: 3.125px;
   border: 3px solid var(--clr-cream);
   background: rgba(255, 249, 240, 0.25);
+}
+
+.header_button:hover {
+  background-color: var(--clr-brown);
+
+}
+
+.bg_cream {
+  background: var(--clr-cream);
+}
+
+@media (max-width:1200px) {
+  :root {
+
+    --ff-xsm: 14px;
+    --ff-sm: 16px;
+    --ff-md: 18px;
+    --ff-lg: 20px;
+    --ff-xl: 20px;
+    --ff-2xl: 22px;
+    --ff-3xl: 36px;
+    --ff-4xl: 45px;
+    --ff-5xl: 57px;
+
+  }
+
+  .logo_width_height {
+    max-width: 200px;
+    height: 100px;
+  }
+
+}
+
+@media (max-width:992px) {
+  :root {
+
+    --ff-xsm: 14px;
+    --ff-sm: 16px;
+    --ff-md: 18px;
+    --ff-lg: 20px;
+    --ff-xl: 20px;
+    --ff-2xl: 22px;
+    --ff-3xl: 36px;
+    --ff-4xl: 45px;
+    --ff-5xl: 50px;
+
+  }
+
+  .logo_width_height {
+    max-width: 200px;
+    height: 100px;
+  }
+
+}
+
+@media (max-width:576px) {
+  :root {
+
+    --ff-xsm: 14px;
+    --ff-sm: 16px;
+    --ff-md: 18px;
+    --ff-lg: 20px;
+    --ff-xl: 14px;
+    --ff-2xl: 16px;
+    --ff-3xl: 36px;
+    --ff-4xl: 45px;
+    --ff-5xl: 24px;
+
+  }
+
+  .header_button {
+    border-radius: 9px;
+    padding: 9px 30px;
+    letter-spacing: 1.66px;
+    border: 3px solid var(--clr-cream);
+    background: rgba(255, 249, 240, 0.25);
+  }
+
+  .logo_width_height {
+    max-width: 150px;
+    height: 70px;
+  }
 }
